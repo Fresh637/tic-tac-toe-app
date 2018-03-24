@@ -1,0 +1,137 @@
+<!-- layout/*.xml -->
+<View
+android:id="@+id/image_2"
+android:layout_width="411dp"
+android:layout_height="731dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-24dp"
+android:background="@drawable/image_2"
+android:alpha="0.2"
+ />
+
+<!-- drawable/image_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="411dp"
+android:height="731dp"
+android:viewportWidth="411"
+android:viewportHeight="731"
+ >
+<group>
+<clip-path
+android:pathData="M 0 0L 411 0L 411 731L 0 731L 0 0Z"
+/>
+</group>
+</vector>
+
+
+<!-- layout/*.xml -->
+<View
+android:id="@+id/image_2"
+android:layout_width="234dp"
+android:layout_height="244dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="89dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="311dp"
+android:background="@drawable/image_2"
+ />
+
+<!-- drawable/image_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="234dp"
+android:height="244dp"
+android:viewportWidth="234"
+android:viewportHeight="244"
+ >
+<group>
+<clip-path
+android:pathData="M 50 0L 184 0C 211.614 0 234 22.3858 234 50L 234 194C 234 221.614 211.614 244 184 244L 50 244C 22.3858 244 0 221.614 0 194L 0 50C 0 22.3858 22.3858 0 50 0Z"
+/>
+</group>
+</vector>
+
+
+<!-- layout/*.xml -->
+<TextView
+android:id="@+id/x_5"
+android:layout_width="110dp"
+android:layout_height="85dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="152dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="555dp"
+android:text="@string/x_5"
+android:textAppearance="@style/x_5"
+ />
+
+<!-- styles.xml -->
+<style name="x_5">
+<item name="android:textSize">48sp</item>
+<item name="android:textColor">#56CCF2</item>
+</style>
+
+<!-- strings.xml -->
+<string name="x_5">
+5 X 5
+</string>
+
+
+
+<!-- layout/*.xml -->
+<TextView
+android:id="@+id/x_3"
+android:layout_width="110dp"
+android:layout_height="85dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="151dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="192dp"
+android:text="@string/x_3"
+android:textAppearance="@style/x_3"
+ />
+
+<!-- styles.xml -->
+<style name="x_3">
+<item name="android:textSize">48sp</item>
+<item name="android:textColor">#56CCF2</item>
+</style>
+
+<!-- strings.xml -->
+<string name="x_3">
+3 X 3
+</string>
+
+
+
+<!-- layout/*.xml -->
+<View
+android:id="@+id/image_3"
+android:layout_width="234dp"
+android:layout_height="219dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="89dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-9dp"
+android:background="@drawable/image_3"
+ />
+
+<!-- drawable/image_3.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="234dp"
+android:height="219dp"
+android:viewportWidth="234"
+android:viewportHeight="219"
+ >
+<group>
+<clip-path
+android:pathData="M 50 0L 184 0C 211.614 0 234 22.3858 234 50L 234 169C 234 196.614 211.614 219 184 219L 50 219C 22.3858 219 0 196.614 0 169L 0 50C 0 22.3858 22.3858 0 50 0Z"
+/>
+</group>
+</vector>
