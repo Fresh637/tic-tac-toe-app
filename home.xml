@@ -1,0 +1,148 @@
+<!-- layout/*.xml -->
+<View
+android:id="@+id/image"
+android:layout_width="421dp"
+android:layout_height="1414dp"
+android:layout_alignParentRight="true"
+android:layout_marginRight="-10dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="-366dp"
+android:background="@drawable/image"
+android:alpha="0.4"
+ />
+
+<!-- drawable/image.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="421dp"
+android:height="1414dp"
+android:viewportWidth="421"
+android:viewportHeight="1414"
+ >
+<group>
+<clip-path
+android:pathData="M 0 0L 421 0L 421 1414L 0 1414L 0 0Z"
+/>
+</group>
+</vector>
+
+
+<!-- layout/*.xml -->
+<View
+android:id="@+id/rectangle"
+android:layout_width="255dp"
+android:layout_height="64dp"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:background="@drawable/rectangle"
+android:elevation="4dp"
+ />
+
+<!-- drawable/rectangle.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="255dp"
+android:height="64dp"
+android:viewportWidth="255"
+android:viewportHeight="64"
+ >
+<group>
+<clip-path
+android:pathData="M 0 0L 255 0L 255 64L 0 64L 0 0Z"
+/>
+<path
+android:pathData="M 0 0L 0 64L 255 64L 255 0"
+android:fillColor="#56CCF2"
+/>
+</group>
+</vector>
+
+
+<!-- layout/*.xml -->
+<TextView
+android:id="@+id/start"
+android:layout_width="181dp"
+android:layout_height="85dp"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:text="@string/start"
+android:textAppearance="@style/start"
+ />
+
+<!-- styles.xml -->
+<style name="start">
+<item name="android:textSize">48sp</item>
+<item name="android:textColor">#FFFFFF</item>
+<item name="android:shadowColor">#40000000</item>
+<item name="android:shadowDx">0</item>
+<item name="android:shadowDy">4</item>
+<item name="android:shadowRadius">4</item>
+</style>
+
+<!-- strings.xml -->
+<string name="start">
+START
+</string>
+
+
+
+<!-- layout/*.xml -->
+<View
+android:id="@+id/rectangle"
+android:layout_width="255dp"
+android:layout_height="64dp"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:background="@drawable/rectangle"
+android:elevation="4dp"
+ />
+
+<!-- drawable/rectangle.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="255dp"
+android:height="64dp"
+android:viewportWidth="255"
+android:viewportHeight="64"
+ >
+<group>
+<clip-path
+android:pathData="M 0 0L 255 0L 255 64L 0 64L 0 0Z"
+/>
+<path
+android:pathData="M 0 0L 0 64L 255 64L 255 0"
+android:fillColor="#56CCF2"
+/>
+</group>
+</vector>
+
+
+<!-- layout/*.xml -->
+<TextView
+android:id="@+id/scoreboard"
+android:layout_width="190dp"
+android:layout_height="43dp"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:text="@string/scoreboard"
+android:textAppearance="@style/scoreboard"
+ />
+
+<!-- styles.xml -->
+<style name="scoreboard">
+<item name="android:textSize">24sp</item>
+<item name="android:textColor">#FFFCFC</item>
+<item name="android:shadowColor">#40000000</item>
+<item name="android:shadowDx">0</item>
+<item name="android:shadowDy">4</item>
+<item name="android:shadowRadius">4</item>
+</style>
+
+<!-- strings.xml -->
+<string name="scoreboard">
+SCOREBOARD
+</string>
+
